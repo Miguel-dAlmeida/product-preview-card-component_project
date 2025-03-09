@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Reset sugerido pelo Copilot IA */
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}

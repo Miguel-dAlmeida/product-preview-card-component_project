@@ -1,0 +1,17 @@
+:root {
+    --text-color: hsl(228, 12%, 48%);
+    --title-color: hsl(212, 21%, 14%);
+    
+    --body-bg-color: hsl(30, 38%, 92%);
+    --card-bg-color: hsl(0, 0%, 100%);
+
+    --current-price-color: hsl(158, 36%, 37%);
+
+    --button-color: hsl(158, 36%, 37%); 
+    --button-hover-color: hsl(158, 42%, 18%);
+    --button-text-color: hsl(0, 0%, 100%);
+
+    --footer-text-color: hsl(212, 21%, 14%);
+    --accent-color: hsl(158, 36%, 37%);
+    --hover-accent-color: hsl(158, 42%, 18%);
+}

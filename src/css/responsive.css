@@ -1,0 +1,93 @@
+/* ESTILOS PARA DISPOSITIVOS MÓVEIS (TABLETS E CELULARES)*/
+
+@media (max-width: 950px) and (orientation: portrait) {
+    /* Utilizei a condição (max-width: 950px) em conjunto com (orientation: portrait) para garantir que o layout permaneça no formato de desktop ao redimensionar a tela para larguras iguais ou inferiores a 950px, enquanto a orientação estiver em landscape */
+
+    html {
+        font-size: 110%;
+    }
+
+    .layout-container {
+        padding: 10% 5%;
+    }
+
+    .layout-container .product-card {
+        aspect-ratio: unset;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .layout-container .product-card .product-details :is(.product-title, .product-description) {
+        max-width: 50rem;
+    }
+
+    .layout-container .product-card .product-details .product-button {
+        height: 6.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 560px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+
+
+
+/* ESTILOS PARA DISPOSITIVOS DE MESA (NOTEBOOKS E COMPUTADORES)*/
+
+@media (max-height: 850px) and (orientation: landscape) {
+    /* Ajuste para notebooks com alturas levemente menores que o padrão (ex.: Apple MacBook) em modo paisagem. .*/
+    html {
+        font-size: 55%;
+    }
+
+    .layout-container .product-card {
+        max-width: 700px;
+        aspect-ratio: 4 / 3;
+    }
+
+    .layout-container .product-card .product-details :is(.product-title, .product-description)  {
+        max-width: 36rem;
+    }
+
+    .layout-container .product-card .product-details .product-button {
+        height: 7rem;
+    }
+}
+
+@media (min-width: 1921px) {
+    html {
+        font-size: 79.80%;
+    }
+
+    .layout-container .product-card {
+        max-width: 1012px;
+        aspect-ratio: 4 / 3;
+    }
+}

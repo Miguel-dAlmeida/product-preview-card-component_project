@@ -1,0 +1,177 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--body-bg-color, hsl(30, 38%, 92%));
+    color: var(--text-color, hsl(228, 12%, 48%));
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.layout-container {
+    min-height: 96vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+/* PRODUCT CARD * */
+
+/* Estilos Reutilizáveis | PRODUCT CARD */
+.layout-container .product-card .product-details :is(.product-title, .product-description) {
+    max-width: 32rem;
+}
+
+.layout-container .product-card .product-details :is(.product-title, .product-pricing) {
+    margin-bottom: 3rem;
+}
+
+.layout-container .product-card .product-details :is(.product-title, .product-pricing .current-price) {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+/* Estilos | PRODUCT CARD */
+.layout-container .product-card {
+    background-color: var(--card-bg-color, hsl(0, 0%, 100%));
+    max-width: 800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    aspect-ratio: 4 / 3;
+    border-radius: 10px;
+}
+
+.layout-container .product-card .product-image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.layout-container .product-card .product-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.layout-container .product-card .product-details .product-category {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin: 0 0 2.5rem;
+}
+
+
+.layout-container .product-card .product-details .product-title {
+    font-size: 5rem;
+    line-height: 4.5rem;
+    color: var(--title-color, hsl(212, 21%, 14%));
+}
+
+.layout-container .product-card .product-details .product-description {
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.layout-container .product-card .product-details .product-pricing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.layout-container .product-card .product-details .product-pricing .current-price {
+    color: var(--current-price-color, hsl(158, 36%, 37%));
+    font-size: 5rem;
+}
+
+.layout-container .product-card .product-details .product-pricing .old-price {
+    text-decoration: line-through;
+}
+
+
+.layout-container .product-card .product-details .product-button {
+    background-color: var(--button-color, hsl(158, 36%, 37%));
+    color: var(--button-text-color, hsl(0, 0%, 100%));
+    width: 100%;
+    height: 6rem;
+    border-radius: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-weight: 700;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.layout-container .product-card .product-details .product-button:hover {
+    background-color: var(--button-hover-color, hsl(158, 42%, 18%));
+}
+
+.product-card .product-details .product-button img {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/* SITE FOOTER */
+
+/* Estilos | SITE FOOTER */
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+.site-footer .footer-credits {
+    font-size: 1.3rem;
+    color: var(--footer-text-color, hsl(212, 21%, 14%));
+}
+
+
+.site-footer .footer-credits a {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    color: var(--accent-color, hsl(158, 36%, 37%));
+    font-weight: 600;
+}
+
+.site-footer .footer-credits a:hover {
+    color: var(--hover-accent-color, hsl(158, 42%, 18%));
+    font-weight: 700;
+}
+
+
+
