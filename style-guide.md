@@ -34,7 +34,7 @@ Os designs foram criados com as seguintes larguras:
 - Família: [Montserrat](https://fonts.google.com/specimen/Montserrat)  
 - Pesos: 500, 700  
 
-- Família: [Fraunces](https://fonts.google.com/specimen/Fraunces)  
+- Família: [Montserrat](https://fonts.google.com/specimen/Fraunces)  
 - Pesos: 700  
 
 > 💎 [Faça upgrade para o Pro](https://www.frontendmentor.io/pro?ref=style-guide) para acessar os arquivos de design e ver todos os detalhes, além de obter experiência prática usando um fluxo de trabalho profissional com ferramentas como o Figma.
