@@ -1,6 +1,6 @@
 # Product Preview Card Component | Desafio do Frontend Mentor
 
-## __Sumário__
+## **Sumário**
 
 - [Visualização do Projeto](#visualização-do-projeto)
 - [Apresentação](#apresentação)
@@ -15,15 +15,15 @@
 - [Contato](#contato)
 - [Licença de Uso](#licença-de-uso)
 
-## __Visualização do projeto__
+## **Visualização do projeto**
 
-### __Desktop:__
+### **🖥️ Desktop**
 
 <div>
   <img src="./src/images/gif_final_page_desktop.gif" alt="Gif do resultado final da página">
 </div>
 
-### __Mobile:__
+### **📱 Mobile**
 
 <div>
   <img src="./src/images/gif_final_page_mobile.gif" alt="Gif do resultado final da página">
@@ -32,29 +32,30 @@
 ### [Acesse a página clicando aqui!](https://miguel-dalmeida.github.io/product-preview-card-component/) 
 
 
-## __Apresentação__  
+## **Apresentação**  
 
-Olá! Me chamo Mário Miguel e sou estudante de Desenvolvimento Web. Atualmente, faço parte do curso __DevQuest__, da *Dev em Dobro*, focado na formação de desenvolvedores Fullstack.  
+Olá! Me chamo Mário Miguel e sou estudante de Desenvolvimento Web. Atualmente, faço parte do curso **DevQuest**, da *Dev em Dobro*, focado na formação de desenvolvedores Fullstack.  
 
-Como parte do meu aprendizado, recriei o desafio __*Product Preview Card Component*__ do *Frontend Mentor*. Esse desafio faz parte do meu projeto [__Lapidando HTML e CSS__](https://gigantic-chef-a6f.notion.site/Lapidando-HTML-e-CSS-1a4cd10b93ab8081a48cf19eeef02d02?pvs=73), que criei para aprimorar minhas habilidades práticas em HTML e CSS.  
+Como parte do meu aprendizado, recriei o desafio ***Product Preview Card Component*** do *Frontend Mentor*. Esse desafio faz parte do meu projeto [**Lapidando HTML e CSS**](https://gigantic-chef-a6f.notion.site/Lapidando-HTML-e-CSS-1a4cd10b93ab8081a48cf19eeef02d02?pvs=73), que criei para aprimorar minhas habilidades práticas em HTML e CSS.  
 
-O projeto consiste em quatro desafios do *Frontend Mentor*, escolhidos a dedo para acompanhar a evolução do meu aprendizado. __A cada novo desafio, o nível de complexidade aumenta, me preparando gradualmente para iniciar meus estudos em JavaScript ao término da lapidação.__
+O projeto consiste em quatro desafios do *Frontend Mentor*, escolhidos a dedo para acompanhar a evolução do meu aprendizado. **A cada novo desafio, o nível de complexidade aumenta, me preparando gradualmente para iniciar meus estudos em JavaScript ao término da lapidação.**
 
-## __Explicação do Projeto__  
-O __*Product Preview Card Component*__ é o segundo desafio dos 4 que integram o programa __Lapidando HTML e CSS__. Este desafio tem o objetivo de reforçar o conhecimento em *CSS Flexbox*.  
+## **Explicação do Projeto**  
+O ***Product Preview Card Component*** é o segundo desafio dos 4 que integram o programa **Lapidando HTML e CSS**. Este desafio tem o objetivo de reforçar o conhecimento em *CSS Flexbox*.  
 
-Trata-se de uma página simples e elegante para a divulgação e compra do perfume __Gabrielle Essence Eau De Parfum__, da marca __Chanel__. A interface é composta por um cartão central, onde:  
+Trata-se de uma página simples e elegante para a divulgação e compra do perfume **Gabrielle Essence Eau De Parfum**, da marca **Chanel**. A interface é composta por um cartão central, onde:  
 - Do lado esquerdo, há uma imagem do perfume.  
 - Do lado direito, encontram-se o nome do produto em destaque, uma breve descrição, o preço (incluindo uma promoção) e um botão para adicionar ao carrinho.  
 
 O design da aplicação segue uma estética minimalista, com uma paleta de cores em tons de bege, branco e verde, que se assemelham às cores da imagem do perfume.  
 
-__Atenção:__ se quiser praticar HTML e CSS, você pode codificar esse projeto também! Basta acessar o link abaixo para conferir o desafio no *Frontend Mentor*:  
+#### **Atenção**  
+Se quiser praticar HTML e CSS, você pode codificar esse projeto também! Basta acessar o link abaixo para conferir o desafio no *Frontend Mentor*:  
 🔗 [Product Preview Card Component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
-## __Estrutura do Projeto__
+## **Estrutura do Projeto**
 
-```
+```plaintext
 ├── src/
 │   ├── css/
 │   │   ├── reset.css
@@ -71,12 +72,11 @@ __Atenção:__ se quiser praticar HTML e CSS, você pode codificar esse projeto 
 │   │   ├── devquest_dev_em_dobro_logo.jpg
 ├── index.html
 ├── README.md
-
 ```
 
-## __Como Utilizar o Código do Projeto__
+## **Como Utilizar o Código do Projeto**
 
-__Para rodar este projeto em sua máquina local, siga os passos abaixo:__
+**Para rodar este projeto em sua máquina local, siga os passos abaixo:**
 
 ### 1️⃣ Crie um diretório para o projeto  
 Escolha um local no seu computador e crie uma pasta para armazenar os arquivos do projeto.
@@ -104,9 +104,9 @@ code .
 ```
 Se estiver utilizando outro editor, abra a pasta `product-preview-card-component` manualmente no programa de sua escolha.
 
-__Pronto! Agora você pode explorar e editar o código do projeto.__ 
+**Pronto! Agora você pode explorar e editar o código do projeto.** 
 
-## __Ferramentas e Tecnologias Utilizadas__
+## **Ferramentas e Tecnologias Utilizadas**
 
 <div style="display: inline_block" align="center"><br>
   <img align="center" alt="HTML" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -114,11 +114,11 @@ __Pronto! Agora você pode explorar e editar o código do projeto.__
   <img align="center" alt="Markdown" height="80" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg"/>
 </div>
 
-## __Principais Recursos e Abordagens__
+## **Principais Recursos e Abordagens**
 
 - **Tags semânticas**: Utilização de tags semânticas como `<main>`, `<section>` e `<footer>`, entre outras, para garantir uma melhor estruturação do conteúdo e facilitar a acessibilidade e a indexação por mecanismos de busca (SEO).
 
-- **Classes padronizadas:** Estabeleci um padrão rígido e coerente para a nomeação das classes, garantindo que fossem descritivas e atendessem aos princípios do *Clean Code*.
+- **Organização de Classes com BEM (Bloco, Elemento e Modificador):** Segui a metodologia BEM para nomear as classes, o que me ajudou a manter um padrão lógico e fácil de entender. Dei prioridade a nomes claros e organizados, garantindo um código limpo e mais simples de manter, sempre alinhado aos princípios do *Clean Code*.
 
 - **Tag `<picture>`**: Implementação da tag `<picture>` para otimizar o carregamento de imagens, permitindo o uso de diferentes formatos e resoluções conforme o tamanho da tela do usuário.
 
@@ -130,7 +130,9 @@ __Pronto! Agora você pode explorar e editar o código do projeto.__
 
 - **Unidade de medida relativa (rem)**: Garantia de escalabilidade dentro do projeto (com essa abordagem, um ponto de alteração reflete em toda a página).
 
-- **Pseudo-classes**: Utilização das pseudo-classes `:hover` e `:is`.
+- **Nesting CSS**: Utilizei a metodologia Nesting CSS para organizar as regras de estilo de forma hierárquica e intuitiva. Essa abordagem permitiu simplificar o código, reduzindo redundâncias e tornando a estrutura mais fácil de ler e manter.
+
+- **Pseudo-classes**: Utilização da pseudo-classe `:hover`.
 
 - **CSS Flexbox**: Aplicação do *Flexbox* para a disposição e alinhamento de elementos.
 
@@ -141,14 +143,15 @@ __Pronto! Agora você pode explorar e editar o código do projeto.__
 - **Responsividade Condicional**: Implementação de media queries com condicionais, como `(orientation: portrait)`, para aplicar estilos específicos conforme a orientação da tela e outras características do dispositivo.
 
 - **Prefixos `-webkit-`, `-ms-` e `-o-`**: Inclusão de prefixos em propriedades CSS para garantir compatibilidade com versões antigas de navegadores.  
-*__Nota:__ Utilizei o site [Autoprefixer CSS online](https://autoprefixer.github.io/) para incluir os prefixos automaticamente.*
+***Nota:** Utilizei o site [Autoprefixer CSS online](https://autoprefixer.github.io/) para incluir os prefixos automaticamente.*
 
-## __Desafios Enfrentados__
+## **Desafios Enfrentados**
 
+**Acessibilidade com `<button>`**  
 No início, tive dificuldades ao utilizar a tag `<button>`, especialmente em relação aos atributos da `<img>` (imagem do ícone de carrinho), que era um elemento filho do botão. Como a imagem era meramente ilustrativa, fiquei em dúvida sobre o uso do atributo `alt`, já que queria garantir a acessibilidade do botão. Após pesquisas, descobri que a melhor abordagem seria utilizar `aria-hidden="true"`, garantindo que leitores de tela ignorassem a imagem, uma vez que ela não adicionava significado ao conteúdo da aplicação.  
 
-__Responsividade para telas maiores que 1440px:__
-Optei por desenvolver o projeto utilizando a metodologia *Desktop First*, inicialmente projetado para telas de **800x600px** (proporção `4:3`). Para manter o alinhamento com o design, defini o contêiner `.product-card` com **largura e altura fixas**, conforme o código abaixo:
+**Responsividade para telas maiores que 1440px**  
+Optei por desenvolver o projeto utilizando a metodologia *Desktop First*, inicialmente projetado para telas de **1440x800px**. Para manter o alinhamento com o design, defini o contêiner `.product-card` com **largura e altura fixas**, conforme o código abaixo:
 
 ```css
 .product-card {
@@ -176,7 +179,7 @@ A solução veio com a propriedade `aspect-ratio`, que permitiu que o aumento da
 
 Além disso, para tornar o layout **flexível em dispositivos móveis**, utilizei `unset` na propriedade `aspect-ratio` dentro da primeira **Media Query Mobile**, permitindo que `.product-card` se ajustasse automaticamente ao invés de manter-se rígido na proporção `4:3`.
 
-__Sobrescrição de Media Queries:__  
+**Sobrescrição de Media Queries:**  
 Outro desafio surgiu devido a um entendimento raso sobre o atributo `media` no HTML. Inicialmente, o código abaixo fazia com que o navegador **só carregasse o arquivo `responsive.css` caso a condição da media query fosse atendida**:
 
 ```html
@@ -187,9 +190,45 @@ Esse erro fez com que os estilos direcionados a telas maiores **não fossem apli
 
 A solução foi mover a regra `max-width: 950px and orientation: portrait` para dentro do arquivo `responsive.css`, garantindo que o navegador carregasse e aplicasse **todas as Media Queries desde o início**, independentemente do tamanho da tela.
 
-Esses desafios me proporcionaram um aprendizado significativo sobre **acessibilidade, responsividade e boas práticas na organização de Media Queries**.
+**Especificidade dos seletores CSS**  
+Até então, minha abordagem ao estilizar elementos no CSS priorizava uma alta especificidade nos seletores. Embora isso garantisse organização e tornasse o CSS previsível, resultava em um código excessivamente verboso e redundante. Com essa dúvida em mente, fui em busca de aprendizado e aprendi que essa prática dificultava a manutenção e atrapalhava o desempenho da aplicação.
 
-## __Aprendizado Adquirido__
+Ao aprofundar meus conhecimentos sobre especificidade de seletores, pude refatorar meu código, tornando-o mais conciso, eficiente e objetivo. Em vez de utilizar seletores excessivamente aninhados, passei a empregar o **Nesting CSS** e a nomenclatura de classes **BEM (Block Element Modifier)**.
+
+**Antes | Código excessivamente específico e redundante:**  
+```css
+.layout-container .product-card .product-details .product-button {
+    ...
+}
+
+.layout-container .product-card .product-details .product-button:hover {
+    ...
+}
+
+.product-card .product-details .product-button img {
+    ...
+}
+```
+
+**Depois | Código otimizado e de fácil manutenção:**  
+```css
+.product__button {
+    ...
+
+    &:hover {
+        ...
+    }
+
+    & img {
+        ...
+    }
+}
+```
+
+
+Esses desafios me proporcionaram um aprendizado significativo sobre **acessibilidade, responsividade, boas práticas na organização de Media Queries e código limpo**.
+
+## **Aprendizado Adquirido**
 
  ### 1️⃣ Semântica e Acessibilidade
 
@@ -199,7 +238,7 @@ Também aprendi sobre o atributo `aria-hidden="true"` e sua aplicação para **o
 
 
 ### 2️⃣ Responsividade e Layout Adaptável  
-Descobri a **propriedade `aspect-ratio`** e sua importância na construção de layouts responsivos. Ela me permitiu manter uma proporção específica (`4:3`) para o contêiner `.product-card` conforme suas dimensões eram ajustadas.  
+Descobri a **propriedade `aspect-ratio`** e sua importância na construção de layouts responsivos. Ela me permitiu manter uma proporção específica (`4:3`) para o contêiner `.product-card` conforme suas dimensões eram ajustadas.
 
 Ademais, durante o intervalo entre a finalização do código e a escrita deste README, aproveitei para estudar as funções **`clamp()`, `min()` e `max()`**. Embora não tenha aplicado esses conceitos neste projeto, eles serão extremamente úteis para futuras implementações de responsividade.
 
@@ -210,14 +249,31 @@ Aprendi que **condicionar o carregamento do arquivo CSS `responsive.css` diretam
 
 A solução foi garantir que o arquivo `responsive.css` fosse carregado sempre, e então definir as **Media Queries dentro do próprio arquivo**, permitindo que o navegador aplique os estilos dinamicamente conforme necessário.
 
+### 4️⃣ Especificidade de Seletores CSS e Organização do Código  
 
-## __Desenvolvimento Contínuo__  
+Conforme mencionado na seção **Desafios Enfrentados**, percebi que meu código CSS estava excessivamente verboso devido ao encadeamento desnecessário de seletores e à aplicação de alta especificidade. Embora essa abordagem proporcionasse um código mais descritivo, ela tornava o CSS redundante, dificultava a manutenção e comprometia a flexibilidade dos estilos. Antes de partir para o próximo projeto, decidi aprofundar meus estudos para otimizar essa estrutura.  
 
-Com a conclusão deste projeto, sigo para o próximo desafio: __Bento Grid__, também do *Frontend Mentor*. Enquanto a __*Product Preview Card Component*__ teve como foco __CSS Flexbox__, este novo desafio terá como objetivo testar meus conhecimentos em __CSS Grid__.
+Inicialmente, **compreendi os impactos negativos do encadeamento excessivo de seletores**, incluindo a dificuldade de sobrescrever estilos, a redução do desempenho do navegador na renderização da página e a complexidade desnecessária ao modificar o código.  
 
-Faltam apenas dois projetos para eu avançar para o módulo de __JavaScript Básico__. Confesso que o próximo desafio me deixa um pouco apreensivo, pois não me sinto tão confiante em __CSS Grid__. No entanto, fico feliz em saber que, por meio do __Bento Grid__, terei a oportunidade de aprimorar meus conhecimentos nesse conceito.
+Entretanto, ao simplificar os seletores, notei que meu CSS havia perdido a clareza estrutural que anteriormente me permitia compreender a organização do HTML apenas observando a hierarquia dos seletores. Para resolver esse problema, estudei e implementei a metodologia **BEM (Block Element Modifier)**, que proporcionou uma nomenclatura de classes mais intuitiva e organizada, permitindo um código menos verboso sem comprometer sua legibilidade.  
 
-## __Agradecimentos e Conclusão__
+Além disso, um colega de formação me recomendou estudar **CSS Nesting**, recurso que permite aninhar seletores dentro de outros, **criando uma estrutura hierárquica semelhante à encontrada em pré-processadores como Sass, Less e Stylus**. Através da aula [**CSS Nesting Passo a Passo: Simplifique seu Código e Evite Erros**](https://www.youtube.com/watch?v=CnMc-SkIcpI&ab_channel=HashtagPrograma%C3%A7%C3%A3o), aprofundei meus conhecimentos e implementei essa técnica no projeto. O **Nesting CSS** não apenas reduziu a necessidade de seletores altamente específicos, mas também manteve a estrutura visualmente coerente com o HTML, tornando o código mais intuitivo, modular e fácil de manter.  
+
+#### **🎥 Aprenda mais sobre CSS Nesting:**  
+[![CSS Nesting Passo a Passo: Simplifique seu Código e Evite Erros](https://i.ytimg.com/vi/CnMc-SkIcpI/maxresdefault.jpg)](https://www.youtube.com/watch?v=CnMc-SkIcpI&ab_channel=HashtagPrograma%C3%A7%C3%A3o)
+
+
+#### **Atenção**  
+Para explorar tudo que aprendi, clique no link abaixo e procure por ***Conhecimento Adquirido: Product preview card component***. Lá, você será direcionado para a página do Notion que reúne as anotações do programa **Lapidando HTML e CSS**.  
+🔗 [Lapidando HTML e CSS | Anotações no Notion](https://gigantic-chef-a6f.notion.site/Lapidando-HTML-e-CSS-1a4cd10b93ab8081a48cf19eeef02d02)
+
+## **Desenvolvimento Contínuo**  
+
+Com a conclusão deste projeto, sigo para o próximo desafio: **Bento Grid**, também do *Frontend Mentor*. Enquanto a ***Product Preview Card Component*** teve como foco **CSS Flexbox**, este novo desafio terá como objetivo testar meus conhecimentos em **CSS Grid**.
+
+Faltam apenas dois projetos para eu avançar para o módulo de **JavaScript Básico**. Confesso que o próximo desafio me deixa um pouco apreensivo, pois não me sinto tão confiante em **CSS Grid**. No entanto, fico feliz em saber que, por meio do **Bento Grid**, terei a oportunidade de aprimorar meus conhecimentos nesse conceito.
+
+## **Agradecimentos e Conclusão**
 
 Se você chegou até aqui, meu sincero obrigado por dedicar seu tempo a explorar este projeto e acompanhar minha jornada. Completar esse desafio foi uma grande conquista, e cada passo reforça minha certeza de que estou no caminho certo para conquistar minha primeira vaga como desenvolvedor web júnior.
 
@@ -230,9 +286,9 @@ Também não posso deixar de agradecer ao [**DevQuest**](https://www.youtube.com
 </div>
 <br>
 
-Um grande abraço e até o próximo projeto. __Bora codar!__
+Um grande abraço e até o próximo projeto. **Bora codar!**
 
-## __Contato__
+## **Contato**
 
  <div style="margin-bottom: 20px;">
     <a style="padding-right: 3px;" href="https://www.linkedin.com/in/mariomigueldealmeida/"><img
@@ -241,7 +297,7 @@ Um grande abraço e até o próximo projeto. __Bora codar!__
         src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
   </div>
 
-## __Licença de Uso__  
+## **Licença de Uso**  
 
 Este código está disponível exclusivamente para fins educacionais. Qualquer outro tipo de utilização não está autorizada.   
 
@@ -249,11 +305,3 @@ Este código está disponível exclusivamente para fins educacionais. Qualquer o
 <div align="center">
   <img src="https://i.imgur.com/kwfpJJn.gif" alt="Imagem representando união e parceria" width="80%">
 </div>
-
-
-
-
-
-
-
-

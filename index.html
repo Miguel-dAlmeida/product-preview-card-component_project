@@ -17,33 +17,36 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
         rel="stylesheet">
+    
+    <link rel="icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+
 
 </head>
 
 <body>
     <div class="layout-container">
-        <main class="product-card">
-            <picture class="product-image">
+        <main class="product">
+            <picture class="product__image">
                 <source media="(max-width: 950px) and (orientation: portrait)"
                     srcset="./src/images/image-product-mobile.jpg">
                 <img src="./src/images/image-product-desktop.jpg"
                     alt="Frasco quadrado e dourado do perfume Gabrielle Essence Eau De Parfum, com fundo cinza e folhas verdes decorativas">
             </picture>
 
-            <section class="product-details">
-                <p class="product-category" translate="no">Perfume</p>
+            <section class="product__details">
+                <p class="product__category" translate="no">Perfume</p>
 
-                <h1 class="product-title" translate="no">Gabrielle Essence Eau De Parfum</h1>
+                <h1 class="product__title" translate="no">Gabrielle Essence Eau De Parfum</h1>
 
-                <p class="product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                <p class="product__description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
                     Perfumer-Creator for the House of CHANEL.</p>
 
-                <div class="product-pricing" translate="no">
-                    <p class="current-price">$149.99</p>
-                    <p class="old-price">$169.99</p>
+                <div class="product__pricing" translate="no">
+                    <p class="product__current-price">$149.99</p>
+                    <p class="product__old-price">$169.99</p>
                 </div>
 
-                <button class="product-button">
+                <button class="product__button">
                     <img src="./src/images/icon-cart.svg" aria-hidden="true">
                     Add to Cart
                 </button>
@@ -51,11 +54,11 @@
         </main>
     </div>
 
-    <footer class="site-footer">
-        <p class="footer-credits">
-            Challenge by&nbsp;<a
+    <footer class="footer">
+        <p class="footer__credits">
+            Challenge by&nbsp;<a class="footer__link"
                 href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa"
-                target="_blank" translate="no">Frontend Mentor</a>. Coded by&nbsp;<a
+                target="_blank" translate="no">Frontend Mentor</a>. Coded by&ensp;<a class="footer__link"
                 href="https://www.linkedin.com/in/m%C3%A1rio-miguel-de-almeida-741291285/" target="_blank"
                 translate="no">Mário
                 Miguel de Almeida</a>.
