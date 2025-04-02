@@ -9,6 +9,7 @@
 - [Como Utilizar o Código do Projeto](#como-utilizar-o-código-do-projeto)
 - [Ferramentas e Tecnologias Utilizadas](#ferramentas-e-tecnologias-utilizadas)
 - [Principais Recursos e Abordagens](#principais-recursos-e-abordagens)
+- [Desafios Enfrentados](#desafios-enfrentados)
 - [Aprendizado Adquirido](#aprendizado-adquirido)
 - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
 - [Agradecimentos e Conclusão](#agradecimentos-e-conclusão)
