@@ -30,7 +30,7 @@
   <img src="./src/images/gif_final_page_mobile.gif" alt="Gif do resultado final da página">
 </div>
 
-### [Acesse a página clicando aqui!](https://miguel-dalmeida.github.io/product-preview-card-component/) 
+### [Acesse a página clicando aqui!](https://miguel-dalmeida.github.io/product-preview-card-component_project/) 
 
 
 ## **Apresentação**  
