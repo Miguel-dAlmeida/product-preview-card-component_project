@@ -21,6 +21,11 @@
         height: 100%;
     }
 
+    .product__image img {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
     .product__title, .product__description {
         max-width: 50rem;
     }
